@@ -1,0 +1,216 @@
+/*global*/
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: black; color: white;
+    margin-top: 20px;
+}
+main {
+    width: 50%;
+    margin-top: 10px;
+  
+
+}
+a {
+color: black;
+}
+
+/*utilities*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+/*header*/
+header {
+    flex-basis: 30%;
+    }
+hr.red-line{
+    border: 1px solid rgb(138, 0, 0);
+    width: 50%;
+    margin-left: 2px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+/*mainly for the h2 in the about page, wanted to play around and see how this looks with the horizontal line */
+h2{
+    margin-top: 1px;
+    margin-bottom: 1%;
+    font-weight: 300;
+    }
+
+header img{
+    display: block;
+    margin: 20px auto;
+    padding: 2px;
+    border: 2px solid white;
+    border-radius: 50%; 
+
+}
+h1.my-name{
+   text-transform: capitalize; 
+   text-align: center;
+   color: brown;
+   letter-spacing: 10px;
+   font-size: 28px;
+   text-shadow: 2px 2px #3f0202; 
+}
+p.title{
+    text-transform: uppercase;
+    text-align: center;
+    color: brown;
+}
+.location{
+    text-align: center;
+}
+/* nave*/
+.menu {
+
+}
+.menu a{
+    background-color: rgba(100, 8, 8, 0.664);
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 700;
+    width: 50%;
+}
+
+/*main*/
+.greeting {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+ 
+}
+h3{
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+h3::after{
+    display: block;
+border-bottom: 1px solid rgb(102, 0, 0);
+content:"";
+width: 100%;
+position: absolute;
+}
+
+.greeting-name{
+    color: #85170f;
+    font-weight: 400;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+    font-weight: 300;
+    
+    
+}
+
+.fa-facebook {
+    background: rgb(138, 0, 0);
+    color: white;
+  }
+
+  .fa {
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    
+      }
+
+  .fa-twitter {
+    background: rgb(138, 0, 0);
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: rgb(138, 0, 0);
+    color: white;
+  }
+
+  .flex-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+color: white;
+  }
+
+  .list-parts{
+    color: white;
+
+  }
+
+.contact-page-image{
+
+max-width: 75%;
+height: auto;
+margin-left: 15%;
+margin-right: 15%;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 33%;
+    border: 2px solid #3f0202;
+    width: 90%;
+}
+
+.description{
+    display: block;
+    border-left: 2px solid  rgba(138, 0, 0,50%);
+    height: 100%;
+    margin-left: 0;
+    width: 60%;
+}
+
+.description::after{
+    display: block;
+    content:"";
+    width: 100%;
+    position: absolute;
+
+    }
+
+.description-paragraph{
+display: block;
+    margin-left: 10%;
+    margin-top: 5%;
+    justify-content: center;
+    margin-right: 10%;
+    line-height: 1.5;
+ 
+}
+.year{
+display: inline-block;
+position: relative;
+opacity: 75%;
+width: 10%;
+
+}
+
+.comic-page-image{
+
+    max-height: 150px;
+    width: auto;
+    margin-left: 15%;
+
+
+
+}
